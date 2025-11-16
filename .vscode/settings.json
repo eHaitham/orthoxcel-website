@@ -1,0 +1,7 @@
+{
+  "css.validate": false,
+  "tailwindCSS.validate": false,
+  "typescript.preferences.includePackageJsonAutoImports": "off",
+  "typescript.suggest.autoImports": false,
+  "typescript.updateImportsOnFileMove.enabled": "never"
+}

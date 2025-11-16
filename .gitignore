@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Deployment documentation (contains sensitive server info)
+Deployment/
+
+# Temporary files
+temp-orthoxcel-repo/
+/tmp/
+
+# Deployment scripts (contain server info)
+deploy.sh
+deploy-orthoxcel.sh
+nginx.conf
+ecosystem.config.js
+DEPLOYMENT.md
+ORTHOXCEL_DEPLOYMENT.md
+
+# Backup folders
+backup-original/
+
+# Emergent folder
+emergent/
