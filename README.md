@@ -1,15 +1,144 @@
-# OrthoXcel Website
+# OrthoXcel Medical Education Platform
 
-A modern, responsive website for OrthoXcel - Medical Education Excellence, built with Next.js, React, and Tailwind CSS.
+A modern, professional website for OrthoXcel - Medical Education Excellence, led by Mr. Mohamed Hashem, FRCS T&O.
 
-## Features
+## 🌐 Live Sites
 
-- 🚀 **Modern Tech Stack**: Next.js 14, React 18, Tailwind CSS
-- 🎨 **Beautiful UI**: Custom components with shadcn/ui design system
-- ✨ **Smooth Animations**: Framer Motion for engaging interactions
-- 📱 **Responsive Design**: Optimized for all screen sizes
-- 🎯 **SEO Optimized**: Proper meta tags and semantic HTML
-- ⚡ **Performance**: Optimized images and lazy loading
+- **Main Site:** https://orthoxcel.generatic.co.uk
+- **Alternative:** http://87.106.54.178/orthoxcel
+
+## ✨ Features
+
+### Complete Sections
+- **Hero Section** - Professional introduction with credentials
+- **About Section** - Mr. Mohamed Hashem's profile and expertise
+- **Services Grid** - Educational services and offerings
+- **Courses Section** - FRCS preparation and medical education courses
+- **Gallery** - 9 authentic images from courses and events
+- **Testimonials** - 6 real student testimonials
+- **Contact Section** - Contact form and information
+- **Footer** - Professional footer with links and social media
+
+### Technical Features
+- Fully responsive design (mobile, tablet, desktop)
+- Smooth animations and transitions
+- Modern UI components
+- Optimized performance
+- SEO-friendly structure
+- Accessibility compliant
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 14.0.4
+- **UI Library:** React 18
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Components:** Custom UI components (shadcn/ui inspired)
+
+## 📦 Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+## 🚀 Deployment
+
+The site is deployed on a VPS with:
+- **Server:** Ubuntu with Nginx
+- **Process Manager:** PM2
+- **SSL:** Let's Encrypt (Certbot)
+- **Port:** 3005
+- **Domain:** orthoxcel.generatic.co.uk
+
+## 📁 Project Structure
+
+```
+orthoxel/
+├── Components/
+│   ├── home/
+│   │   ├── HeroSection.jsx
+│   │   ├── AboutSection.jsx
+│   │   ├── ServicesGrid.jsx
+│   │   ├── CoursesSection.jsx
+│   │   ├── GallerySection.jsx
+│   │   ├── TestimonialsSection.jsx
+│   │   ├── ContactSection.jsx
+│   │   ├── StatsSection.jsx
+│   │   └── Footer.jsx
+│   └── ui/
+│       ├── button.jsx
+│       └── card.jsx
+├── pages/
+│   ├── _app.js
+│   ├── index.js
+│   └── home.jsx
+├── styles/
+│   └── globals.css
+├── lib/
+│   └── utils.js
+├── Layout.js
+├── next.config.js
+├── tailwind.config.js
+└── package.json
+```
+
+## 🎨 Design System
+
+### Colors
+- **Primary:** Blue (#0A2463)
+- **Secondary:** Teal (#006B7D)
+- **Accent:** Orange (#F4A261)
+
+### Typography
+- **Font:** Inter (system font stack)
+- **Headings:** Bold, large sizes
+- **Body:** Regular weight, readable sizes
+
+## 📝 Content
+
+All content is authentic and approved:
+- Professional images from actual courses
+- Real student testimonials
+- Accurate credentials and qualifications
+- Verified contact information
+
+## 🔒 Security
+
+- HTTPS enabled with SSL certificates
+- Secure headers configured
+- No sensitive data in repository
+- Environment variables for sensitive config
+
+## 📄 License
+
+Copyright 2025 OrthoXcel. All rights reserved.
+
+## 👨‍⚕️ About
+
+Led by **Mr. Mohamed Hashem**
+- FRCS T&O (Fellow of the Royal College of Surgeons)
+- 18+ years of medical education experience
+- RCS Faculty Member
+- ATLS Course Director
+- International orthopaedic educator
+
+## 📞 Contact
+
+- **Email:** info@orthoxcel.co.uk
+- **Phone:** +44 1753 520986
+- **Location:** Slough, Berkshire, United Kingdom
+- **YouTube:** [@mohamedahashem5629](https://www.youtube.com/@mohamedahashem5629/videos)
 
 ## Getting Started
 
